@@ -14,7 +14,8 @@ const Contact = () => {
           <div>
             <iframe
               style={{ border: 0, width: "100%", height: 270 }}
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              //   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.715876453275!2d77.3005708148156!3d28.63827638241552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb4ebbd94957%3A0xbb228198311b1106!2sNeelkanth%20Apartments%2C%20Madhu%20Vihar%2C%20I.P.Extension%2C%20Patparganj%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1600330567126!5m2!1sen!2sin"
               frameBorder={0}
               allowFullScreen
             />

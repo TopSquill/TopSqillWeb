@@ -8,17 +8,15 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-info">
-                <h3>
-                  Gp<span>.</span>
-                </h3>
+                <h3>Topsqill</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA
+                  IP Extn <br />
+                  Delhi -92, India
                   <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +91 9355135887
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong> info@topsqill.com
                   <br />
                 </p>
                 <div className="social-links mt-3">
@@ -105,16 +103,12 @@ const Footer = () => {
         <div className="copyright">
           © Copyright{" "}
           <strong>
-            <span>Gp</span>
+            <span>Topsqill</span>
           </strong>
           . All Rights Reserved
         </div>
         <div className="credits">
-          {/* All the links in the footer should remain intact. */}
-          {/* You can delete the links only if you purchased the pro version. */}
-          {/* Licensing information: https://bootstrapmade.com/license/ */}
-          {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ */}
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://topsqill.netlify.app/">Topsqill</a>
         </div>
       </div>
     </footer>

@@ -18,7 +18,7 @@ const Services = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class='bx bx-code-alt'/>
+                  <i class="bx bx-code-alt" />
                 </div>
                 <h4>
                   <a href>Web Development</a>
@@ -36,7 +36,7 @@ const Services = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="bi bi-braces"/>
+                  <i class="bi bi-braces" />
                 </div>
                 <h4>
                   <a href>Responsive Design</a>
@@ -54,7 +54,7 @@ const Services = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                <i class="bi bi-phone"/>
+                  <i class="bi bi-phone" />
                 </div>
                 <h4>
                   <a href>App Development</a>
@@ -93,7 +93,7 @@ const Services = () => {
                   <i className="bx bx-slideshow" />
                 </div>
                 <h4>
-                  <a href>GRC Developer</a>
+                  <a href>GRC Training & Development</a>
                 </h4>
                 <p>
                   Quis consequatur saepe eligendi voluptatem consequatur dolor

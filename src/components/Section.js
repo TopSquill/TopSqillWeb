@@ -14,9 +14,7 @@ const Section = () => {
             data-aos-delay="150"
           >
             <div class="col-xl-6 col-lg-8">
-              <h1>
-                Powerful Digital Solutions With Topsqill
-              </h1>
+              <h1>Powerful Digital Solutions With Topsqill</h1>
               <h2>We are team of talented digital marketers</h2>
             </div>
           </div>
@@ -38,7 +36,7 @@ const Section = () => {
               <div class="icon-box">
                 <i class="ri-bar-chart-box-line"></i>
                 <h3>
-                  <a href="">Resposive Design</a>
+                  <a href="">App Development</a>
                 </h3>
               </div>
             </div>
@@ -54,7 +52,7 @@ const Section = () => {
               <div class="icon-box">
                 <i class="ri-paint-brush-line"></i>
                 <h3>
-                  <a href="">GRC Development</a>
+                  <a href="">GRC Training & Development</a>
                 </h3>
               </div>
             </div>
@@ -62,7 +60,7 @@ const Section = () => {
               <div class="icon-box">
                 <i class="ri-database-2-line"></i>
                 <h3>
-                  <a href="">Graphic Design</a>
+                  <a href="">Wordpress Developer</a>
                 </h3>
               </div>
             </div>

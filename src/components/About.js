@@ -18,6 +18,10 @@ const About = () => {
               data-aos="fade-right"
               data-aos-delay={100}
             >
+              <div className="section-title">
+                <h2>About</h2>
+                <p>About Us</p>
+              </div>
               <h3>LEADING GOVERNANCE, RISK, AND COMPLIANCE COMPANY</h3>
               <h4 className="fst-italic">
                 Build resiliency into your organization
@@ -41,9 +45,7 @@ const About = () => {
                   aliquip ex ea commodo consequat. 
                 </li> */}
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              </p>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
         </div>

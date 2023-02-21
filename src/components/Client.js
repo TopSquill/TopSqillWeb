@@ -6,6 +6,10 @@ const Client = () => {
       {/* ======= Clients Section ======= */}
       <section id="clients" className="clients">
         <div className="container" data-aos="zoom-in">
+          <div className="section-title">
+            <h2>Client</h2>
+            <p>Our Clients</p>
+          </div>
           <div className="clients-slider swiper">
             <div className="swiper-wrapper align-items-center">
               <div className="swiper-slide">

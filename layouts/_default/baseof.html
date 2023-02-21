@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="{{ "/vendor/aos/aos.css" | urlize | relURL }}">
+  <link rel="stylesheet" href="{{ "/vendor/bootstrap/css/bootstrap.min.css" | urlize | relURL }}" >
+  <link rel="stylesheet" href="{{ "/vendor/bootstrap-icons/bootstrap-icons.css" | urlize | relURL }}" >
+  <link rel="stylesheet" href="{{ "/vendor/boxicons/css/boxicons.min.css" | urlize | relURL }}" >
+  <link rel="stylesheet" href="{{ "/vendor/glightbox/css/glightbox.min.css" | urlize | relURL }}" >
+  <link rel="stylesheet" href="{{ "/vendor/remixicon/remixicon.css" | urlize | relURL }}" >
+  <link rel="stylesheet" href="{{ "/vendor/swiper/swiper-bundle.min.css" | urlize | relURL }}" >
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="{{ "/css/style.css" | urlize | relURL  }}">
+
+
+    <script  src="{{ "/vendor/purecounter/purecounter_vanilla.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/aos/aos.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/bootstrap/js/bootstrap.bundle.min.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/glightbox/js/glightbox.min.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/isotope-layout/isotope.pkgd.min.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/swiper/swiper-bundle.min.js" | urlize | relURL }}"></script>
+    <script src="{{ "/vendor/php-email-form/validate.js" | urlize | relURL }}"></script>
+
+    <script src="{{ "/js/main.js" | urlize | relURL }}"></script>
+    {{ $title := site.Title }}
+    {{ if not .Params.IsHome }}
+      {{ $title = printf "%s | %s" site.Title .Title }}
+    {{ end }}
+    <title>
+      {{ $title }}
+    </title>
+  </head>
+  <body>
+    {{ .Render "header" }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ .Render "footer" }}
+    {{/*  <div id="preloader"></div>  */}}
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </body>
+
+</html>

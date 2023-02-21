@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Topsqill"
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]

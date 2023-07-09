@@ -5,9 +5,7 @@ const Header = () => {
     <header id="header" className="fixed-top ">
       <div className="container d-flex align-items-center justify-content-lg-between">
         <h1 className="logo me-auto me-lg-0">
-          <a href="index.html">
-           TopSqill
-          </a>
+          <a href="index.html">TopSqill</a>
         </h1>
         {/* Uncomment below if you prefer to use an image logo */}
         {/* <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
@@ -25,12 +23,12 @@ const Header = () => {
             </li>
             <li>
               <a className="nav-link scrollto" href="#services">
-                Projects
+                Services
               </a>
             </li>
             <li>
               <a className="nav-link scrollto " href="#portfolio">
-                Portfolio
+                Projects
               </a>
             </li>
             <li>
@@ -38,9 +36,9 @@ const Header = () => {
                 Team
               </a>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a href="#">
-                <span>Services</span> <i className="bi bi-chevron-down" />
+                <span>...</span> <i className="bi bi-chevron-down" />
               </a>
               <ul>
                 <li>
@@ -73,7 +71,7 @@ const Header = () => {
                   <a href="#">Training & Development</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <a className="nav-link scrollto" href="#contact">
                 Contact

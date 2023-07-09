@@ -1,6 +1,6 @@
 import React from "react";
 
-const Counts = () => {
+const WhyChooseUs = () => {
   return (
     <>
       {/* ======= Counts Section ======= */}
@@ -20,9 +20,11 @@ const Counts = () => {
               <div className="content d-flex flex-column justify-content-center">
                 <h3>Why Choose TOPSQILL?</h3>
                 <p>
-                TopSqill  is emerging with the prime vision of simplifying governance, risk and compliance management across multiple verticals.
-
-We offers a wide range of solutions to aid governance management, risk mitigation, audits, information security and regulatory compliance.
+                  TopSqill is emerging with the prime vision of simplifying
+                  governance, risk and compliance management across multiple
+                  verticals. We offers a wide range of solutions to aid
+                  governance management, risk mitigation, audits, information
+                  security and regulatory compliance.
                 </p>
                 <div className="row">
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
@@ -97,4 +99,4 @@ We offers a wide range of solutions to aid governance management, risk mitigatio
   );
 };
 
-export default Counts;
+export default WhyChooseUs;
